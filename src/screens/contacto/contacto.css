@@ -1,0 +1,31 @@
+
+.fondo__claro {
+  background-color: #f0f0f0; /* Cambia el color de fondo según tus necesidades */
+  padding: 20px;
+}
+
+.titulo__redes {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.redes__contacto {
+  text-align: center;
+}
+
+.contacto__icons__lista {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icon {
+  margin: 0 10px;
+  font-size: 30px;
+  color: black; /* Color inicial del ícono */
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: rgb(0, 255, 21); /* Color al pasar el ratón por encima */
+}

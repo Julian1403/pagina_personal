@@ -1,0 +1,56 @@
+/* Estilos comunes para habilidades */
+.habilidad__card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    position: relative; /* Agrega posición relativa para que la posición absoluta funcione correctamente */
+  }
+  
+  .habilidad__card img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    display: block; /* Asegura que la imagen esté en una línea separada */
+  }
+  
+  .habilidad__card .progress {
+    margin-top: 10px;
+  }
+  
+  .habilidad__card .card-title {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .habilidad__card .card-title,
+  .habilidad__card img {
+    position: relative; /* Permite posicionar el título y la imagen dentro de la tarjeta */
+  }
+  
+  /* Estilos para habilidades blandas */
+  .habilidad__card.habilidad__blanda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Ancho de la tarjeta */
+    margin: 10px; /* Margen entre tarjetas */
+    text-align: center; /* Alineación del texto */
+  }
+  
+  .habilidad__card.habilidad__blanda .habilidad__title {
+    margin-top: 10px;
+  }
+  
+  /* Estilo para la sección de habilidades blandas */
+  .habilidades__blandas {
+    margin-top: 20px; /* Margen superior */
+  }
+  .habilidad__card:hover {
+    transform: scale(1.1); /* Ajusta el valor según tu preferencia para el aumento de tamaño */
+  }
+  
+  

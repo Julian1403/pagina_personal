@@ -1,0 +1,280 @@
+.container__curriculum{
+    padding: 40px 0;
+    transition: all 500ms;
+}
+
+.container__elements{
+    position: relative;
+    transition: all 500ms;
+    margin: 0 20px 20px 20px;
+}
+
+.container__elements:hover+.espacio{
+    height: 440px;
+}
+
+.espacio{
+    height: 0px;
+    margin-bottom: 0px;
+    transition: all 500ms;
+}
+
+.experiencia__contenedor {
+	background-color: #c0c0c0;
+	border-radius: 10px;
+	width: 400px;
+    margin-top: 20px;
+    height: 188px;
+	padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 500ms;
+}
+
+.experiencia__contenedor__info {
+	background-color: var(--color__elementos__oscuro);
+	position: absolute;
+	top: 20px;
+	width: 400px;
+	height: 188px;
+	padding: 10px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	transition: all 500ms;
+	justify-content: center;
+}
+
+.experiencia__contenedor__info:hover, .experiencia__contenedor:hover+.experiencia__contenedor__info{
+    top: 220px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.experiencia__info{
+    color: var(--color__principal__2);
+	font-family: "Montserrat" , sans-serif;
+	margin: 15px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.experiencia__lista__container{
+    width: 80%;
+    margin: 0 10%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.experiencia__titulo{
+    color: var(--color__principal__2);
+    text-transform: uppercase;
+	font-family: "Montserrat" , sans-serif;
+	font-weight:600;
+	font-size: 1.2rem;
+	margin: 15px;
+    text-align: center;
+}
+
+.formacion__contenedor {
+	width: 300px;
+	margin: 15px 15px 10px 15px;
+    transition: all 500ms;
+}
+
+.formacion__contenedor:hover{
+    transform: scale(1.05);
+}
+
+.formacion__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 300px;
+	height: 200px;
+    background-color: var(--color__principal__2);
+    border-radius: 10px;
+}
+
+.formacion__lista__fecha{
+    font-family: "Montserrat" , sans-serif;
+	font-weight: 400;
+	font-size: .8rem;
+	color: var(--color__principal__2);
+    margin: 5px;
+    text-align: center;
+}
+
+.formacion__lista {
+	width: 85%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.formacion__lista__imagen{
+    width: 150px;
+}
+
+.formacion__lista__nombre{
+	font-family: "Montserrat" , sans-serif;
+	font-weight: 700;
+	font-size: 1.3rem;
+	color: var(--color__principal__2);
+    margin: 15px auto 1px auto;
+    text-align: center;
+}
+
+.formacion__text {
+	font-family: var(--fuente__principal);
+	width: 85%;
+	margin: 0 auto;
+	font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+.formacion__titulo {
+	text-transform: uppercase;
+	font-family: "Montserrat" , sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.info__perfil {
+	padding: 40px;
+}
+
+.info__exp_texto{
+    font-family: var(--fuente__principal);
+    padding: 5px;
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.perfil__profesional{
+    background-color: var(--color__elementos__oscuro);
+    display: flex;
+    align-items: center;
+}
+
+.perfil__photo{
+    height: 450px;
+}
+
+.perfil__photo__responsive{
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+
+    .perfil__photo{
+        height: 450px;
+        display: none;
+    }
+
+    .perfil__photo__responsive {
+        display: block;
+        width: 300px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .info__perfil {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experiencia__titulo {
+        margin: 5px auto 0px auto;
+    }
+
+    .formacion__text {
+        width: 80%;
+        margin-block: 10px;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    .info__perfil {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .perfil__profesional{
+        padding-top: 0px;
+        flex-direction: column;
+    }
+
+    .perfil__photo__responsive {
+        display: block;
+        width: 100%;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .perfil__photo{
+        height: 450px;
+        display: none;
+    }
+
+    .experiencia__contenedor__info {
+        width: 100%;
+        margin: 0 ;
+    }
+
+    .experiencia__contenedor {
+        width: 90%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .info__exp_texto {
+        font-size: 1rem;
+        padding: 20px;
+    }
+
+    .container__elements:hover+.espacio{
+        height: 200px;
+    }
+
+    .experiencia__contenedor__info {
+        justify-content: center;
+        justify-Content: 'flex-end'
+    }
+
+    .formacion__titulo {
+        width: 80%;
+        margin: 0px auto 10px auto;
+    }
+
+    .formacion__text {
+        text-align: center;
+        width: 100%;
+        font-weight: 400;
+    }
+
+}
+
+
+@media screen and (max-width: 370px) {
+
+    .info__exp_texto {
+        font-size: .85rem;
+    }
+    
+    .formacion__item {
+        width: 100%;
+    }
+
+
+}

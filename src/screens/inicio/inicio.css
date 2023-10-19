@@ -1,0 +1,108 @@
+
+  .container h1 {
+    font-size: 2.5em; /* Tamaño de la fuente para el título */
+  }
+  .custom-card {
+    width: 100%; /* Asegura que la tarjeta tenga un ancho del 100% */
+  }
+  
+  .container p {
+    font-size: 1.2em; /* Tamaño de la fuente para el párrafo */
+  }
+  
+  /* Estilo para el botón */
+  .container .btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    margin-top: 20px;
+  }
+
+  .presentacion__titulo {
+    font-family: var(--fuente__principal);
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1.9rem;
+    margin-top: 10px;
+    text-align: center;
+    max-width: 800px;
+}
+.presentacion__texto {
+  
+  margin-bottom: 1.9rem;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: center;
+ 
+}
+
+.presentacion__info {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    align-items: center;
+}
+.prese {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  
+}
+.trabajo__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttons-container {
+  display: flex;
+  margin-bottom: 10rem;
+  margin-top: 1px;
+}
+/* gg */
+
+/* .imagen {
+  width: 100%;
+  height: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%; /* Comienza fuera del área visible */
+  /* animation: desplazamiento 6s linear infinite; Ajusta la duración de la animación} */
+
+
+
+
+
+
+
+/* aca */
+.desplazamiento__container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.desplazamiento {
+  display: flex;
+  animation: desplazar 6s linear infinite;
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+}
+
+@keyframes desplazar {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+

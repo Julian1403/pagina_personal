@@ -1,0 +1,25 @@
+/* animacion frontend */
+@keyframes changeColor {
+    /* 0% { color: red; } */
+    50% { color: orange; }
+    /* 50% { color: yellow; } */
+    5% { color: black; }
+    /* 100% { color: blue; } */
+  }
+  
+  .orange__text--animation {
+    animation: changeColor 3s infinite alternate;
+  }
+  /* animacion para el backend */
+  @keyframes changeColor2 {
+    /* 0% { color: red; } */
+    50% { color: orange; }
+    /* 50% { color: yellow; } */
+    1% { color:white; }
+    /* 100% { color: blue; } */
+  }
+  
+  .orange__text--animationtrr {
+    margin-top: '10px';
+    animation: changeColor2 3s infinite alternate;
+  }
