@@ -1,9 +1,9 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
 
-import InicioScreen from "./screens/inicio";
+import InicioScreen from "./screens/inicio/index";
 import MainLayout from "./layouts/main";
-import PortafolioScreen from "./screens/portafolio";
+import PortafolioScreen from "./screens/portafolio/index.jsx";
 import HabilidadesScreen from "./screens/habilidades";
 import TrayectoriaScreen from "./screens/trayectoria";
 import ContactoScreen from "./screens/contacto";
