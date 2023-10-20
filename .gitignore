@@ -17,7 +17,7 @@ build/static/css/main.b2cd5a35.css.map
 build/static/css/main.49feef68.css.map
 build/static/js/main.31a0fdf3.js
 build/static/js/main.31a0fdf3.js.map
-src/config/index.js
+
 # misc
 .DS_Store
 .env.local
