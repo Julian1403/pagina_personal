@@ -10,37 +10,39 @@ import ContactoScreen from "./screens/contacto";
 
 import { Navigate } from "react-router-dom";
 
-const router = createBrowserRouter([
+
+const router=createBrowserRouter([
     {
-        path: '/pagina_personal/', // Agrega el nombre de la carpeta base
-        element: <Navigate to="/pagina_personal/inicio" />
+        path: '/pagina_personal',
+element: <Navigate to="/pagina_personal/inicio" />
+//con esto me aseguro que al ir a la ruta principal me dirija a inicio
     },
     {
-        path: '/pagina_personal/', // Agrega el nombre de la carpeta base
-        element: <MainLayout />,
-        children: [
+        path:'/',
+        element:<MainLayout/>,
+        children:[
             {
-                path: 'inicio',
-                element: <InicioScreen />
+                path:'inicio',
+                element:<InicioScreen/>
             },
             {
-                path: 'portafolio',
-                element: <PortafolioScreen />
+                path:'portafolio',
+                element:<PortafolioScreen/>
             },
             {
-                path: 'habilidades',
-                element: <HabilidadesScreen />
+                path:'habilidades',
+                element:<HabilidadesScreen/>
             },
             {
-                path: 'trayectoria',
-                element: <TrayectoriaScreen />
+                path:'trayectoria',
+                element:<TrayectoriaScreen/>
             },
             {
-                path: 'contacto',
-                element: <ContactoScreen />
+                path:'contacto',
+                element:<ContactoScreen/>
             }
-        ]
-    }
+        ]}
 ]);
-
 export default router;
+
+
