@@ -13,9 +13,8 @@ import { Navigate } from "react-router-dom";
 
 const router=createBrowserRouter([
     {
-        path: '/pagina_personal',
-element: <Navigate to="/pagina_personal/inicio" />
-//con esto me aseguro que al ir a la ruta principal me dirija a inicio
+        path:'/',
+        element:<Navigate to="/inicio"/>//con esto me aseguro que al ir a la ruta principal me dirija a inicio
     },
     {
         path:'/',
