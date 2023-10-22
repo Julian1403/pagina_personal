@@ -8,15 +8,11 @@ import HabilidadesScreen from "./screens/habilidades";
 import TrayectoriaScreen from "./screens/trayectoria";
 import ContactoScreen from "./screens/contacto";
 
-import { Navigate } from "react-router-dom";
+
 
 const router = createBrowserRouter([
     {
-        path: '/pagina_personal/', // Agrega el nombre de la carpeta base
-        element: <Navigate to="/pagina_personal/inicio" />
-    },
-    {
-        path: '/pagina_personal/', // Agrega el nombre de la carpeta base
+        path: '/pagina_personal/',
         element: <MainLayout />,
         children: [
             {

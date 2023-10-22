@@ -56,7 +56,7 @@ diferentes entornos y trabajar en equipo. De aprendizaje rápido y con conocimie
 técnicas; esto  me motiva a asumir nuevos retos con disciplina y dinamismo. He trabajado en el área de analítica de datos realizando la práctica profesional en la Clínica Leon XIII, por lo que tengo experiencia en el manejo de algunos lenguajes de programación. </p>
       
       <p>¡Explora mi sitio y descubre todo lo que tengo para ofrecer!</p>
-      <Link to="/portafolio" className="btn btn-primary" style={{ margin: '10px 10px 30px 10px' }}>Ir al Portafolio</Link>
+      <Link to="/pagina_personal/portafolio" className="btn btn-primary" style={{ margin: '10px 10px 30px 10px' }}>Ir al Portafolio</Link>
       </div>
       </div>
       

@@ -12,23 +12,23 @@ const PortafolioScreen = () => {
     {
         title: 'E-commerce Zapatos',
         imageUrl: fel,
-        description: 'Descripción del proyecto 1...',
-        workUrl: 'https://github.com/Julian1403/e-commerce-zapatos',
-        demoUrl: 'https://demo.tuproyecto1.com'
+        description: 'Descripción del proyecto 1',
+        workUrl: 'https://github.com/Julian1403/ecommerce-zapato',
+        demoUrl: 'https://julian1403.github.io/ecommerce-zapato'
     },
     {
     title: 'App pedidos restaurante',
       imageUrl: fel1,
-      description: 'Descripción del proyecto 1...',
+      description: 'Descripción del proyecto 2',
       workUrl: 'https://github.com/Julian1403/aplicacion-pedidos-restaurante',
-      demoUrl: 'https://demo.tuproyecto1.com'
+      demoUrl: ' https://julian1403.github.io/aplicacion-pedidos-restaurante/'
       },
     {
         title: 'Página personal',
         imageUrl: sitio,
-        description: 'Descripción del proyecto 1...',
-        workUrl: 'https://github.com/tuusuario/tuproyecto1',
-        demoUrl: 'https://demo.tuproyecto1.com'
+        description: 'Descripción del proyecto 3',
+        workUrl: 'https://github.com/Julian1403/pagina_personal',
+        demoUrl: 'https://julian1403.github.io/pagina_personal'
     },
     // Agrega más proyectos
   ];

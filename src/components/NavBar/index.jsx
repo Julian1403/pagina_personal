@@ -19,11 +19,11 @@ function NavBarComponent() {
         <Nav className="me-auto">
           {/* <Nav.Link href="#home">Dahboard</Nav.Link> */}
           
-          <NavLink to="/inicio" className="nav-link">INICIO</NavLink>
-          <NavLink to="/portafolio" className="nav-link">PORTAFOLIO</NavLink>
-          <NavLink to="/habilidades" className="nav-link">HABILIDADES</NavLink>
-          <NavLink to="/trayectoria" className="nav-link">CURRICULO</NavLink>
-          <NavLink to="/contacto" className="nav-link">CONTACTO</NavLink>
+          <NavLink to="/pagina_personal/inicio" className="nav-link">INICIO</NavLink>
+          <NavLink to="/pagina_personal/portafolio" className="nav-link">PORTAFOLIO</NavLink>
+          <NavLink to="/pagina_personal/habilidades" className="nav-link">HABILIDADES</NavLink>
+          <NavLink to="/pagina_personal/trayectoria" className="nav-link">CURRICULO</NavLink>
+          <NavLink to="/pagina_personal/contacto" className="nav-link">CONTACTO</NavLink>
 
           {/* <NavLink to="/dashboard" className="nav-link">Dashboard</NavLink> esto para hacer la navegacion interna entre rutas */}
         </Nav>
