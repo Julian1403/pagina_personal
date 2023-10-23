@@ -34,7 +34,7 @@ const InicioScreen = () => {
    
     {
       title: 'Aplicación pedidos restaurante',
-      description: 'Descripción del trabajo 2',
+      description: 'Descripción del trabajo2',
       imageUrl: fel1,
       workUrl: 'https://github.com/Julian1403/aplicacion-pedidos-restaurante',
       demoUrl: 'https://julian1403.github.io/aplicacion-pedidos-restaurante/'
