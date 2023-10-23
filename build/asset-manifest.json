@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pagina_personal/static/css/main.b2cd5a35.css",
-    "main.js": "/pagina_personal/static/js/main.99da77f4.js",
+    "main.js": "/pagina_personal/static/js/main.3fdd96e2.js",
     "static/js/787.ae0d8d37.chunk.js": "/pagina_personal/static/js/787.ae0d8d37.chunk.js",
     "static/media/analis.png": "/pagina_personal/static/media/analis.3f33708a26addef9087b.png",
     "static/media/fondojulian.png": "/pagina_personal/static/media/fondojulian.c78fd7a371bed37948cb.png",
@@ -37,11 +37,11 @@
     "static/media/logo.svg": "/pagina_personal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/pagina_personal/index.html",
     "main.b2cd5a35.css.map": "/pagina_personal/static/css/main.b2cd5a35.css.map",
-    "main.99da77f4.js.map": "/pagina_personal/static/js/main.99da77f4.js.map",
+    "main.3fdd96e2.js.map": "/pagina_personal/static/js/main.3fdd96e2.js.map",
     "787.ae0d8d37.chunk.js.map": "/pagina_personal/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b2cd5a35.css",
-    "static/js/main.99da77f4.js"
+    "static/js/main.3fdd96e2.js"
   ]
 }

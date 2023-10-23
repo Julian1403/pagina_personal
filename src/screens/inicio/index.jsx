@@ -28,8 +28,8 @@ const InicioScreen = () => {
       title: 'E-Commerce Zapatos',
       description: 'Descripción del trabajo 1',
       imageUrl: fel,
-      workUrl: 'https://github.com/Julian1403/e-commerce-zapatos',
-      demoUrl: 'URL de la demostración para el trabajo 1'
+      workUrl: 'https://github.com/Julian1403/ecommerce-zapato',
+      demoUrl: 'https://julian1403.github.io/ecommerce-zapato/'
     },
    
     {
@@ -37,7 +37,7 @@ const InicioScreen = () => {
       description: 'Descripción del trabajo 2',
       imageUrl: fel1,
       workUrl: 'https://github.com/Julian1403/aplicacion-pedidos-restaurante',
-      demoUrl: 'https://santimartz12.github.io/E_Commerce/'
+      demoUrl: 'https://julian1403.github.io/aplicacion-pedidos-restaurante/'
     }
   ];
 
